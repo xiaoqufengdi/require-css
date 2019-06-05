@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<script type='text/javascript' src='../../../require.js'></script>
+<script type='text/javascript' src='./require.js'></script>
 <script>
   require.config({
     map: {
@@ -16,7 +16,7 @@
 <h1>test</h1>
 
 <script>
-  require(['app'], function(){});
+//  require(['app'], function(){});
   require(['popup'], function(popupHTML) {
     var div = document.createElement('div');
     div.innerHTML = popupHTML;
